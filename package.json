@@ -1,0 +1,19 @@
+{
+  "name": "web-accessibility-tester",
+  "version": "1.0.0",
+  "description": "Website accessibility tester",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "keywords": [
+    "pa11y",
+    "accessibility"
+  ],
+  "author": "Jim Kernicky",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pa11y": "^6.2.3"
+  }
+}
