@@ -150,3 +150,39 @@ function escapeHTML(html) {
 ```
 
 #2 Changed his `border-secondary` to `border-danger`
+
+## Other open source accessibility testers
+
+Links:
+
+1. https://blog.testproject.io/2020/03/04/5-open-source-accessibility-testing-tools-pros-and-cons/
+1. https://www.w3.org/WAI/ER/tools/index.html?q=command-line-tool
+
+Tools:
+
+1. NVDA (NonVisual Desktop Access): https://www.nvaccess.org/ - `NO, requires Python`
+2. `WAVE`, web accessibility evaluation tool: https://wave.webaim.org/ - Chrome `extension` otherwise it costs $
+3. axe, chrome `extension`: https://www.deque.com/axe/ - TOTAL BULLSHIT
+
+from Web Accessibility Evaluation Tools List:
+
+4. a11y-checker: https://github.com/Muhnad/a11y-checker
+5. a11y-sitechecker, how to use? https://github.com/forsti0506/a11y-sitechecker
+6. **A11ygato** – accessibility dashboard for website monitoring, looks good: https://github.com/Orange-OpenSource/a11ygato-platform
+7. **QualWeb**, looks good: http://qualweb.di.fc.ul.pt/evaluator/about and https://github.com/qualweb/cli
+8. Accessibility Tester: https://github.com/sfccdevops/accessibility-tester - looks really in-depth
+9. axe-core-npm, https://github.com/dequelabs/axe-core-npm | https://www.npmjs.com/package/@axe-core/cli
+
+KEEPERS:
+
+1. `Pa11Y`
+1. `WAVE` - Chrome Extension
+
+MAYBE:
+
+1. `a11y checker`
+1. `a11y-sitechecker`: shit ton of packages
+1. `a11ygato`: fork of Pa11y???
+1. `QualWeb CLI`: confusing
+1. `Accessibility Tester`: can maybe get a json file
+1. `axe-core-npm`: no clue how to use it
