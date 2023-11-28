@@ -1,5 +1,30 @@
 # Notes from the video
 
+> From repos/personal-portfolio:
+
+## Chrome extensions and Accessibility
+
+### Devtools shortcuts
+
+1. while in devtools hold `CTRL`+`F` and then you can search for h1, h2, etc.
+2. Network tab - disable cache then refresh
+
+### VisBug
+
+- install, click it to turn it on, then in the left sidebar click the person icon and hover over any element - AMAZING for colors
+
+## Accessibility
+
+1. Accessibility tree: `CTRL`+`SHIFT`+`P` to Run Command (search for) _accessibility_ and check "Enable full-page-accessibility tree" then click on the person icon
+
+I have `Section: ""` - no description so it will read like a `<div>`. To fix:
+
+1. use `aria-labelledby` and set it to an id of a header tag inside or `aria-label` and give it a value
+
+## Skip to main content link
+
+Have this for every site - see NOTES.md in personal-portfolio
+
 Repo: https://github.com/bradtraversy/website-accessibility-tester
 
 Pa11y is an accessibility tester. You can pass in a URL and it returns an array of reults on accessibility issues, e.g. a missing `alt` attribute for an `img` tag, a `label` without a `for` attribute, etc.
