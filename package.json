@@ -13,7 +13,7 @@
   "author": "Jim Kernicky",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.22.1",
+    "express": "^5.2.1",
     "pa11y": "^8.0.0"
   }
 }
